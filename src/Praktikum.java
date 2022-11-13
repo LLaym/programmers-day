@@ -5,11 +5,11 @@ public class Praktikum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите год:");
-        int year = scanner.nextInt();
-        if (isLeapYear(year)) {
-            System.out.println("12.09." + year);
+        int inputYear = scanner.nextInt();
+        if (isLeapYear(inputYear)) {
+            System.out.println("12.09." + inputYear);
         } else {
-            System.out.println("13.09." + year);
+            System.out.println("13.09." + inputYear);
         }
     }
 
